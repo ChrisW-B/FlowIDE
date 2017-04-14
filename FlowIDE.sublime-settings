@@ -3,5 +3,6 @@
     "use_npm_flow": false,
     "omit_function_parameters": false,
     "show_sublime_autocomplete_suggestions": false,
-    "flow_dec_only": true
+    "flow_dec_only": true,
+    "show_coverage": true
 }

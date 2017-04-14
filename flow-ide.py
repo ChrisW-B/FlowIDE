@@ -266,7 +266,8 @@ class FlowListener(sublime_plugin.EventListener):
 
         if (
             '// @flow' not in deps.contents and
-            '/* @flow */' not in deps.contents
+            '/* @flow */' not in deps.contents and
+             settings.get('flow_dec_only')
         ):
             return view.erase_regions('flow_error')
 

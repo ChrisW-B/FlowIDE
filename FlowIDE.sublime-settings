@@ -1,4 +1,5 @@
 {
     "flow_path": "flow",
-    "use_npm_flow": false
+    "use_npm_flow": false,
+    "flow_dec_only": true
 }
